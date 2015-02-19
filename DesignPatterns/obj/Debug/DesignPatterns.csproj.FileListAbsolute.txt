@@ -3,3 +3,8 @@ c:\users\dion\documents\visual studio 2013\Projects\DesignPatterns\DesignPattern
 c:\users\dion\documents\visual studio 2013\Projects\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.pdb
 c:\users\dion\documents\visual studio 2013\Projects\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.exe
 c:\users\dion\documents\visual studio 2013\Projects\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.pdb
+C:\Users\Dion\Documents\GitHub\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe.config
+C:\Users\Dion\Documents\GitHub\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.exe
+C:\Users\Dion\Documents\GitHub\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.pdb
+C:\Users\Dion\Documents\GitHub\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe
+C:\Users\Dion\Documents\GitHub\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.pdb

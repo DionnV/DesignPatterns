@@ -8,10 +8,12 @@ namespace DesignPatterns.Opdracht_1
 {
     public class App
     {
+        /*
         public static void Main(String[] args)
         {
             Recorder recorder = new Recorder();
             recorder.Simulate();
         }
+         */
     }
 }

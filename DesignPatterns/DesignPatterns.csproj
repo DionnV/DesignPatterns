@@ -52,6 +52,10 @@
     <Compile Include="Opdracht 1\ICalculatable.cs" />
     <Compile Include="Opdracht 1\Pilot.cs" />
     <Compile Include="Opdracht 1\Recorder.cs" />
+    <Compile Include="Opdracht 2-3-4\App.cs" />
+    <Compile Include="Opdracht 2-3-4\Car.cs" />
+    <Compile Include="Opdracht 2-3-4\MotorBase.cs" />
+    <Compile Include="Opdracht 2-3-4\MyFirstMotor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

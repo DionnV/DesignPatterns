@@ -8,3 +8,6 @@ C:\Users\Dion\Documents\GitHub\DesignPatterns\DesignPatterns\obj\Debug\DesignPat
 C:\Users\Dion\Documents\GitHub\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.pdb
 C:\Users\Dion\Documents\GitHub\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe
 C:\Users\Dion\Documents\GitHub\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.pdb
+C:\Users\Dion\Documents\GitHub\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache
+C:\Users\Dion\Documents\GitHub\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.Opdracht_2_3_4.GUI.resources
+C:\Users\Dion\Documents\GitHub\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csproj.GenerateResource.Cache

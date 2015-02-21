@@ -4,9 +4,19 @@ using System.Text;
 
 namespace Design Patterns.Opdracht2
 {
-	public class Car
+	public abstract class Engine
 	{
-		public Engine Engine
+		public void Start()
+		{
+			throw new NotImplementedException();
+		}
+
+		public void Stop()
+		{
+			throw new NotImplementedException();
+		}
+
+		public Fluctuation Fluctuation
 		{
 			get
 			{
@@ -18,7 +28,7 @@ namespace Design Patterns.Opdracht2
 			}
 		}
 
-		public string Brand
+		public int Revs
 		{
 			get
 			{
@@ -30,28 +40,15 @@ namespace Design Patterns.Opdracht2
 			}
 		}
 
-		public string Type
+		public abstract float FuelUsagePerSecond
 		{
-			get
-			{
-				throw new NotImplementedException();
-			}
-			set
-			{
-				throw new NotImplementedException();
-			}
+			get;
 		}
 
-		public FuelTank FuelTank
+		public abstract FuelType FuelType
 		{
-			get
-			{
-				throw new NotImplementedException();
-			}
-			set
-			{
-				throw new NotImplementedException();
-			}
+			get;
+			set;
 		}
 	}
 }

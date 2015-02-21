@@ -2,43 +2,31 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Design Patterns.Opdracht2
+namespace DesignPatterns.Opdracht2_3_4
 {
 	public abstract class Engine
 	{
 		public void Start()
 		{
-			throw new NotImplementedException();
+			//CAR STARTED
 		}
 
 		public void Stop()
 		{
-			throw new NotImplementedException();
+			//CAR STOPPED
 		}
 
-		public Fluctuation Fluctuation
-		{
-			get
-			{
-				throw new NotImplementedException();
-			}
-			set
-			{
-				throw new NotImplementedException();
-			}
-		}
+        public Fluctuation Fluctuation
+        {
+            get;
+            set;
+        }
 
-		public int Revs
-		{
-			get
-			{
-				throw new NotImplementedException();
-			}
-			set
-			{
-				throw new NotImplementedException();
-			}
-		}
+        public int Revs
+        {
+            get;
+            set;
+        }
 
 		public abstract float FuelUsagePerSecond
 		{

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Design Patterns.Opdracht2
+namespace DesignPatterns.Opdracht2_3_4
 {
 	public abstract class Fluctuation
 	{

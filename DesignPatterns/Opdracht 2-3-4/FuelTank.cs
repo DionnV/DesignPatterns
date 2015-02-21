@@ -2,21 +2,23 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Design Patterns.Opdracht2
+namespace DesignPatterns.Opdracht2_3_4
 {
 	public abstract class FuelTank
 	{
-		public float Content
-		{
-			get
-			{
-				throw new NotImplementedException();
-			}
-			set
-			{
-				throw new NotImplementedException();
-			}
-		}
+        private float _Content;
+        public float Content
+        {
+            get
+            {
+                return _Content;
+            }
+            set
+            {
+                if (value < 0) _Content = 0;
+                else _Content = value;
+            }
+        }
 
 		public abstract FuelType FuelType
 		{

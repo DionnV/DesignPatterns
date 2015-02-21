@@ -54,25 +54,27 @@
     <Compile Include="Opdracht 1\ICalculatable.cs" />
     <Compile Include="Opdracht 1\Pilot.cs" />
     <Compile Include="Opdracht 1\Recorder.cs" />
-    <Compile Include="Opdracht 2-3-4\App.cs" />
     <Compile Include="Opdracht 2-3-4\Car.cs" />
-    <Compile Include="Opdracht 2-3-4\GUI.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Opdracht 2-3-4\GUI.Designer.cs">
-      <DependentUpon>GUI.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Opdracht 2-3-4\MotorBase.cs" />
-    <Compile Include="Opdracht 2-3-4\MyFirstMotor.cs" />
+    <Compile Include="Opdracht 2-3-4\CarFactory.cs" />
+    <Compile Include="Opdracht 2-3-4\DieselCarFactory.cs" />
+    <Compile Include="Opdracht 2-3-4\DieselEngine.cs" />
+    <Compile Include="Opdracht 2-3-4\DieselTank.cs" />
+    <Compile Include="Opdracht 2-3-4\Engine.cs" />
+    <Compile Include="Opdracht 2-3-4\Fluctuation.cs" />
+    <Compile Include="Opdracht 2-3-4\FuelTank.cs" />
+    <Compile Include="Opdracht 2-3-4\FuelType.cs" />
+    <Compile Include="Opdracht 2-3-4\GasCarFactory.cs" />
+    <Compile Include="Opdracht 2-3-4\GasEngine.cs" />
+    <Compile Include="Opdracht 2-3-4\GasTank.cs" />
+    <Compile Include="Opdracht 2-3-4\NegativeExponentialFluctuation.cs" />
+    <Compile Include="Opdracht 2-3-4\NormalDistributedFluctuation.cs" />
+    <Compile Include="Opdracht 2-3-4\PetrolCarFactory.cs" />
+    <Compile Include="Opdracht 2-3-4\PetrolEngine.cs" />
+    <Compile Include="Opdracht 2-3-4\PetrolTank.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Opdracht 2-3-4\GUI.resx">
-      <DependentUpon>GUI.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

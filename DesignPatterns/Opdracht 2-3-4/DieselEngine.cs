@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Design Patterns.Opdracht2
+namespace DesignPatterns.Opdracht2_3_4
 {
 	public class DieselEngine : Engine
 	{
@@ -10,7 +10,7 @@ namespace Design Patterns.Opdracht2
 		{
 			get
 			{
-				throw new NotImplementedException();
+				return 0.0003f * Revs;
 			}
 		}
 
@@ -18,11 +18,7 @@ namespace Design Patterns.Opdracht2
 		{
 			get
 			{
-				throw new NotImplementedException();
-			}
-			set
-			{
-				throw new NotImplementedException();
+				return FuelType.Diesel;
 			}
 		}
 	}
